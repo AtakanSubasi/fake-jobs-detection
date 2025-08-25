@@ -29,8 +29,9 @@ fake-jobs-detection/
 ├─ requirements.txt
 └─ README.md
 
+
 ## ⚡ How to Run
-```bash
+
 # 1. Preprocess data
 python src/preprocess.py
 
@@ -54,4 +55,5 @@ python src/predict_cli.py "Looking for a Data Scientist with Python and SQL expe
 - Hyperparameter tuning
 - Deploy as API (FastAPI/Flask)
 - Add visualization dashboard
+
 
