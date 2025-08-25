@@ -28,9 +28,6 @@ fake-jobs-detection/
 ├─ requirements.txt
 └─ README.md
 
-bash
-Kodu kopyala
-
 ## ⚡ How to Run
 ```bash
 # 1. Preprocess data
@@ -45,18 +42,14 @@ python src/evaluate.py
 # 4. Predict CLI
 python src/predict_cli.py "Looking for a Data Scientist with Python and SQL experience"
 
-📊 Results
-Accuracy: ~88%
 
-ROC AUC: ~0.98
+## 📊 Results
+- Accuracy: ~88%
+- ROC AUC: ~0.98
+- High recall for fraud detection (important to catch fake jobs)
 
-High recall for fraud detection (important to catch fake jobs)
-
-🔮 Next Steps
-Try other models (Naive Bayes, RandomForest, XGBoost)
-
-Hyperparameter tuning
-
-Deploy as API (FastAPI/Flask)
-
-Add visualization dashboard
+## 🔮 Next Steps
+- Try other models (Naive Bayes, RandomForest, XGBoost)
+- Hyperparameter tuning
+- Deploy as API (FastAPI/Flask)
+- Add visualization dashboard
