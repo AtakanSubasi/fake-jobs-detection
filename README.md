@@ -13,19 +13,19 @@ data/raw/fake_job_postings.csv
 
 ## 📂 Project Structure
 fake-jobs-detection/
-data/
-  raw/          # raw CSV (not uploaded to GitHub)
-  interim/      # cleaned data (ignored in git)
-  processed/    # train/test splits (ignored in git)
-models/
-  artifacts/    # trained model & vectorizer (ignored in git)
-src/
-  preprocess.py # clean & vectorize
-  train.py      # train model
-  evaluate.py   # metrics
-  predict_cli.py # CLI predictions
-requirements.txt
-README.md
+* data/
+  * raw/          # raw CSV (not uploaded to GitHub)
+  * interim/      # cleaned data (ignored in git)
+  * processed/    # train/test splits (ignored in git)
+* models/
+  * artifacts/    # trained model & vectorizer (ignored in git)
+* src/
+  * preprocess.py # clean & vectorize
+  * train.py      # train model
+  * evaluate.py   # metrics
+  * predict_cli.py # CLI predictions
+* requirements.txt
+* README.md
 
 ## ⚡ How to Run
 
@@ -52,6 +52,7 @@ python src/predict_cli.py "Looking for a Data Scientist with Python and SQL expe
 - Hyperparameter tuning
 - Deploy as API (FastAPI/Flask)
 - Add visualization dashboard
+
 
 
 
