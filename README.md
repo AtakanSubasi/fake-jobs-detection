@@ -11,8 +11,8 @@ End-to-end machine learning pipeline to detect **fake job postings**.
 Download it from Kaggle and place it under:
 data/raw/fake_job_postings.csv
 
-
 ## 📂 Project Structure
+
 ```text
 fake-jobs-detection/
 ├─ data/
@@ -28,6 +28,7 @@ fake-jobs-detection/
 │  └─ predict_cli.py # CLI predictions
 ├─ requirements.txt
 └─ README.md
+
 
 
 ## ⚡ How to Run
@@ -55,5 +56,6 @@ python src/predict_cli.py "Looking for a Data Scientist with Python and SQL expe
 - Hyperparameter tuning
 - Deploy as API (FastAPI/Flask)
 - Add visualization dashboard
+
 
 
